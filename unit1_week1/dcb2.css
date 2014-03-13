@@ -1,0 +1,59 @@
+#header
+{
+	
+	border: 10px dashed beige;
+	background-color: beige;
+	margin: 40px;
+	left: 0px;
+	top: 0px;
+}
+
+.content
+{
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	float:right;
+}
+
+#sidebar
+{
+   text-align: left;
+   width: 350px;
+   height: 600px;
+   background-color: #DEB887;
+   border: 1px solid beige;
+   float: left;
+}
+.purple
+{
+	color: purple; 
+}
+
+#footer
+{
+	border: 1px solid black;
+	width: 400px;
+	height: 30px;
+	position: fixed;
+	left: auto;
+	bottom: 0px;
+	padding: 1px 3px 5px 1px;
+}
+#oldfash
+{
+	height: 300px;
+	width:	400px;
+	position: relative;
+}
+
+#caption
+{
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    top:300px;
+    left:0px;
+    width:100%;
+}
