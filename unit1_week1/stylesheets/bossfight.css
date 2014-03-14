@@ -1,11 +1,8 @@
 #header
 {	
-	border: 1px solid beige;
-	margin: 0px;
-	left: 0px;
-	top: 0px;
-	right: 0px;
-	width: 100%;
+	background-color: #686969;
+	width: 50%;
+	float: left;
 }
 #imghead
 {
