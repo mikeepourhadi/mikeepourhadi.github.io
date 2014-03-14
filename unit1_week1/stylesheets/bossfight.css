@@ -1,0 +1,72 @@
+#header
+{	
+	border: 1px solid beige;
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+}
+#imghead
+{
+	position: relative;
+}
+.content
+{
+	width: 700px;
+	height: 150px;
+	border: 3px dashed black;
+	background-color: beige;
+	text-align: center;
+}
+
+#sidebar
+{
+   text-align: left;
+   width: 300px;
+   height: 600px;
+   background-color: #DEB887;
+   border: 3px dashed black;
+   float: left;
+}
+.sidebar_title
+{
+	text-align: center;
+	font-size: 28px;
+	font-family: cursive;
+}
+
+#footer
+{
+	border: 1px solid black;
+	width: 1400px;
+	height: 30px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	padding: 1px 3px 5px 1px;
+}
+#oldfash
+{
+	height: 400px;
+	width:	400px;
+	border: 5px solid black;
+	position: relative;
+}
+
+#caption
+{
+    position:fixed;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    top:0px;
+    left:400px;
+    width:100%;
+}
+.emphs
+{
+	color: purple;
+	font-family: cursive;
+	font-weight: bold;
+}
