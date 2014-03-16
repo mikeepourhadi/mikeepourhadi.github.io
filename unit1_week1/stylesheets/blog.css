@@ -1,28 +1,7 @@
-#header{	
-	background-color: #696969;
-	width: 40%;
-	float: left;
-}
-#imghead{
-	position: relative;
-}
-.container{
-	width: 100%;
-	height: 500px;
-	padding-top: 100px;
-	padding-left: 50px;
-}
-#vid{
-	width: 50%;
-	float: left;
-}
-.video{
-	width: 100%;
-}
 .emphs{
 	color: #FF9900;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 }
 .emphsday{
 	color: #FF9900;
@@ -31,9 +10,9 @@
 }
 header{
 	color: white;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 32px;
 	width: 500px;
 	position: relative;
 	padding-top: 20px;
@@ -50,7 +29,8 @@ header{
 	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 300;
-	font-size: 12px;
+	font-size: 14px;
+	margin-bottom: 20px;
 }
 .titlehead{
 	font-family: 'Alegreya Sans', sans-serif;
@@ -58,6 +38,6 @@ header{
 	font-weight: 700; 
 	margin-right: 250px;
 	margin-top: 30px;
-	font-size: 26px;
+	font-size: 22px;
 	width: 500px;
 }
