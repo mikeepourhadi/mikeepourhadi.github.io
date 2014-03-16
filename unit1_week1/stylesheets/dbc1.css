@@ -1,0 +1,29 @@
+#homelink
+{
+	color: white;
+}
+
+.ul, .ol
+{
+	color: #D2691E;
+	background-color: lightgreen;
+	box-shadow: 3px 2px 2px #888888;
+}
+
+.questions_p2
+{
+	color: beige;
+
+}
+
+.questions_p1
+{
+	color:beige;
+	background-color: coral;
+	box-shadow: 3px 2px 2px #888888;
+}
+
+.imgs_p1
+{
+	box-shadow: 3px 2px 2px #888888;
+}

@@ -1,58 +1,45 @@
-#header
-{	
-	border: 3px dashed black;
-	background-color: beige;
-	margin: 0px;
-	left: 0px;
-	top: 0px;
-	right: 0px;
+.wrapper{
+	min-height: 100%;
+	position: relative;
 }
-
-.content
-{
-	width: 700px;
-	height: 150px;
-	border: 3px dashed black;
+header{	
+	border: 1px solid black;
 	background-color: beige;
-	text-align: center;
 }
-
-#sidebar
-{
+sidebar{
    text-align: left;
-   width: 300px;
+   width: 200px;
    height: 600px;
    background-color: #DEB887;
-   border: 3px dashed black;
+   border: 1px solid black;
+   position: relative;
    float: left;
 }
-.sidebar_title
-{
+.sidebar_title{
 	text-align: center;
 	font-size: 28px;
 	font-family: cursive;
 }
-
-#footer
-{
+.content{
+	width: 100%;
+	max-width: 400px;
+	height: 150px;
 	border: 1px solid black;
-	width: 1400px;
-	height: 30px;
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	padding: 1px 3px 5px 1px;
-}
-#oldfash
-{
-	height: 400px;
-	width:	400px;
-	border: 5px solid black;
+	padding-bottom: 15px;
+	background-color: beige;
+	text-align: center;
 	position: relative;
+	float: left;
 }
-
-#caption
-{
+#oldfash{
+	height: 400px;
+	width:	100%;
+	max-width: 400px;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+}
+#caption{
     position:absolute;    
     color:white;
     font-size:24px;
@@ -61,8 +48,21 @@
     left:-120px;
     width:100%;
 }
-.emphs
-{
+footer{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.body{
+	width: 100%;
+	max-width: 400px;
+	position: relative;
+	float: left;
+}
+.emphs{
 	color: purple;
 	font-family: cursive;
 	font-weight: bold;
