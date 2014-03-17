@@ -1,0 +1,56 @@
+/*index page*/
+html{
+}
+header{
+	height: 150px;
+	position: relative;
+	background-color: black
+}
+#container{
+	width: 800px;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+#container img{
+	width:75%;
+}
+header ul {
+  float: left;
+  color: #fff;
+  margin: 0 10px;
+  padding: 20px 30px;
+  float: left;
+  width: 100%;
+}
+
+#head{	
+	background-color: #696969;
+	width: 100%;
+	min-height: 100px;
+	max-height: 400px;
+	position: fixed;
+}
+.container{
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+	padding-left: 50px;
+}
+#vid{
+	width: 50%;
+	float: left;
+}
+.video{
+	width: 100%;
+}
+.emphs{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 14px;
+}
+.emphsday{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 28px;
+}
