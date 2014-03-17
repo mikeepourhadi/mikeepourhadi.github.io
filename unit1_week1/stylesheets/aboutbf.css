@@ -1,0 +1,85 @@
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+/*head*/
+header{	
+	border-bottom: 5px solid #FF9900;
+	background-color: black;
+}
+header img{
+	width:70%;
+}
+/*sidebar*/
+sidebar ul{
+	text-align: center;
+}
+sidebar ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 700; 
+	line-height: 100px;
+}
+sidebar{
+   text-align: left;
+   width: 200px;
+   height: 600px;
+   background-color: #686868;
+   position: relative;
+   float: left;
+}
+sidebar h3{
+	margin-top: 20px;
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+}
+/*body*/
+.content{
+	width: 100%;
+	max-width: 400px;
+	height: 100%;
+	padding-bottom: 15px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+#body div.info {
+  font-family: "Alegreya Sans", sans-serif;
+  background-color: rgba(255,255,255,0.5);
+  float: left;
+  min-height: 300px;
+  padding: 1%;
+  margin: 2%;
+  width: 23%;
+}
+#twitfeed{
+	width:	100%;
+	max-width: 400px;
+	position: relative;
+	float: right;
+}
+/*tweaks*/
+.emphs{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 16px;
+}
+.emphsday{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 28px;
+}
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+/* Footer */
+footer {
+  background-color:  #686868;
+}
+
