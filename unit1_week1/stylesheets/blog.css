@@ -17,11 +17,27 @@ header{
 	position: relative;
 	padding-top: 20px;
 }
+.titlehead{
+	font-family: 'Alegreya Sans', sans-serif;
+	color:white;
+	font-weight: 700; 
+	margin-right: 250px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	width: 500px;
+	background-color: rgba(255,175,70,0.2);
+	box-shadow: 2px 2px 2px #000000;
+}
 .block{
 	width: 100%;
 	max-width: 400px;
+	padding-top: 20px;
+	padding-right: 35px;
+	padding-bottom: 10px;
 	padding-left: 35px;
-	padding-top: 25px;
+	background-color: rgba(255,175,70,0.2);
+	box-shadow: 2px 2px 2px #000000;
 }
 
 .content{
@@ -31,13 +47,4 @@ header{
 	font-weight: 300;
 	font-size: 14px;
 	margin-bottom: 20px;
-}
-.titlehead{
-	font-family: 'Alegreya Sans', sans-serif;
-	color:white;
-	font-weight: 700; 
-	margin-right: 250px;
-	margin-top: 30px;
-	font-size: 22px;
-	width: 500px;
 }

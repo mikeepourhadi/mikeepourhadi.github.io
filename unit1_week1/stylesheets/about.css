@@ -42,17 +42,7 @@ section{
   	  position: relative;
   	  float: left;
 }
-.content{
-	width: 100%;
-	max-width: 400px;
-	height: 150px;
-	border: 1px solid black;
-	padding-bottom: 15px;
-	background-color: beige;
-	text-align: center;
-	position: relative;
-	float: left;
-}
+
 #oldfash{
 	height: 400px;
 	width:	100%;
