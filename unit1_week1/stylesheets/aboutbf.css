@@ -11,6 +11,15 @@ header img{
 	width:70%;
 }
 /*sidebar*/
+sidebar{
+   text-align: left;
+   width: 200px;
+   height: 600px;
+   background-color: #686868;
+   position: relative;
+   border-right: 5px solid #FF9900;
+   float: left;
+}
 sidebar ul{
 	text-align: center;
 }
@@ -18,14 +27,6 @@ sidebar ul li{
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 700; 
 	line-height: 100px;
-}
-sidebar{
-   text-align: left;
-   width: 200px;
-   height: 600px;
-   background-color: #686868;
-   position: relative;
-   float: left;
 }
 sidebar h3{
 	margin-top: 20px;
