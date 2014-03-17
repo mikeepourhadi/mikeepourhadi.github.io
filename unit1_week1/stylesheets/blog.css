@@ -17,6 +17,7 @@ header{
 	position: relative;
 	padding-top: 20px;
 }
+
 .titlehead{
 	font-family: 'Alegreya Sans', sans-serif;
 	color:white;
@@ -36,8 +37,6 @@ header{
 	padding-right: 35px;
 	padding-bottom: 10px;
 	padding-left: 35px;
-	background-color: rgba(255,175,70,0.2);
-	box-shadow: 2px 2px 2px #000000;
 }
 
 .content{

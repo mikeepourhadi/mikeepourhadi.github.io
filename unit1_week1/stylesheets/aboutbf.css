@@ -5,6 +5,7 @@
 /*head*/
 header{	
 	border-bottom: 5px solid #FF9900;
+	box-shadow: 0px 3px 0px #808080;
 	background-color: black;
 }
 header img{
@@ -19,6 +20,7 @@ sidebar{
    position: relative;
    border-right: 5px solid #FF9900;
    float: left;
+   box-shadow: 3px 0px 0px #808080;
 }
 sidebar ul{
 	text-align: center;
