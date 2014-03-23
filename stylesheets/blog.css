@@ -1,16 +1,18 @@
 
-nav, .emphs{
-	color: #FFF2BC;
+nav, .emphs, .emphsday{
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
+	text-shadow: 0.1em 0.1em 0.4em black;
+	color: #FFFFCC;
 }
-nav{
-	text-shadow: 0.1em 0.1em 0.5em black;
+.author{
+	text-align: left;
+	color: #B0B0B0 ;
 }
 .emphsday{
-	color: #FFF2BC;
-	font-weight: bold;
 	font-size: 28px;
+	
+	color: #FF9966;
 }
 header{
 	color: white;
@@ -31,9 +33,7 @@ header{
 	margin-bottom: 1em;
 	font-size: 22px;
 	width: 19em;
-	background-color: rgba(255,0,0,0.5);
 	box-shadow: 2px 2px 2px #000000;
-	text-shadow: 0.1em 0.1em 0.5em black;
 }
 .block{
 	width: 100%;
@@ -42,18 +42,14 @@ header{
 	padding-right: 35px;
 	padding-bottom: 10px;
 	padding-left: 35px;
-	background-color: rgba(255, 90, 11, 0.5);
-	box-shadow: 2px 2px 2px #000000;
+	
 }
 .content{
 	text-align: justify;
-	color: white;
+	color: #E8E8E8;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 2em;
-	text-shadow: 0.1em 0.1em 0.5em black;
 }
-.author{
-	text-align: left;
-}
+
