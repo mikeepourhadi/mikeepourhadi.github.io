@@ -1,30 +1,4 @@
 
-nav, .emphs, .emphsday{
-	font-weight: bold;
-	font-size: 18px;
-	color: #EFFFCC;
-}
-.author{
-	text-align: left;
-	color: #B0B0B0 ;
-}
-#author_top{
-	color: #B0B0B0;
-}
-.emphsday{
-	font-size: 26px;
-	color: #FF9966;
-}
-header{
-	color: white;
-	font-family: "Alegreya Sans", sans-serif;
-	font-weight: 700;
-	font-size: 32px;
-	width: 19em;
-	position: relative;
-	padding-top: 1em;
-	text-shadow: 0.1em 0.1em 0.5em black;
-}
 .titlehead{
 	font-family: 'Alegreya Sans', sans-serif;
 	color:white;
@@ -34,7 +8,34 @@ header{
 	margin-bottom: 1em;
 	font-size: 22px;
 	width: 23em;
-	box-shadow: 2px 2px 2px #000000;
+}
+nav, .emphs, .emphsday{
+	font-size: 18px;
+	color: #FFFFCC;
+}
+.emphsday, .emphstitle{
+	font-size: 26px;
+	color: #FF9966;
+}
+.emphsday{
+	font-size: 28px;
+	text-shadow: .1em .1em 2em #FF9966;
+}
+.author{
+	text-align: left;
+	color: #B0B0B0 ;
+}
+#author_top{
+	color: #B0B0B0;
+}
+header h1{
+	color: white;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	width: 19em;
+	position: relative;
+	padding-top: 1em;
 }
 .block{
 	width: 100%;
