@@ -19,6 +19,121 @@
 			<a class="emphs" href="About.html">back</a>
 		</nav>
 
+		<h2 class="titlehead">Sunday, <span class="emphsday">APRIL 6TH</span>: WE'RE FIGHTING </h2>
+		<div class="block">
+			<div class="content">
+				<h3 class="emphstitle">WHAT DO YOU KNOW?</h3><br>
+				<p>Is something I have yelled at others.</p>
+				<br>
+				<p>I have had my share of conflict. Who hasn't? I'm over two decades into my life - if I hadn't yelled something completely blind and vengeful at someone yet... well. It would be coming. Riders of the apocalypse style.</p>
+				<br>
+				<h3 class="emphstitle">SHUDDERS, EARTHQUAKES</h3>
+				<br>
+				<p>Have you ever lost a close friend? I mean, a really close friend. One whom you thought you couldn't live without. That kind. </p>
+				<br>
+				<p>I have. I did. A few months ago, actually. And it all came from a small argument. You know how a small stream created the Grand Canyon?</p>
+				<br>
+				<p>In the interest of avoiding becoming too personal, I can say that it all came down to pride. Pride, defense mechanisms and fear. That last one, mostly. Fear is what shattered whatever it was that we had - fear of being vulnerable, fear of the future, fear of trusting someone else.</p>
+				<br>
+				<p>In the end, neither of us gave. Something has to give, right? Our friendship did, and it ended.</p>
+				<br>
+				<p>I refused to bend, again because of pride. Pride hardened me, made me stubborn. I went out of my way to reinforce my position by lying to myself. Was I the only one to blame? Certainly not, but I didn't help in the slightest.</p>
+				<br>
+				<h3 class="emphstitle">REGRET?</h3>
+				<br>
+				<p>Maybe.</p>
+				<br>
+				<p>Without that situation, though, I wouldn't know what I know now. Vulnerability fosters growth. And trust. Vulnerability is beautiful, it's not frightening. Can a city grow within buttoned walls?</p>
+				<br>
+				<p>And this relates to Dev Bootcamp, doesn't it? Let's take pair programming - what's one of the most important parts of it? Admitting when you don't know something. Showing your lack of knowledge - but most importantly, acclimating you with the feeling of humbling yourself. That's the important part.</p>
+				<br>
+				<p>In that way, pair programming can be applied to the rest of your life. If you humble yourself intellectually, you can humble yourself elsewhere in your life. For people (like me) who value intelligence, admitting ignorance during a pair session is almost terrifying. But by doing that, by introducing that feeling of unease in such an imporant aspect of life can be spread to the rest. And that can make you a better person. At least, I think so.</p>
+				<br>
+				<h3 class="emphstitle">HOW ABOUT SLOTHS</h3>
+				<br>
+				<p>LET'S CHEER UP, HEY LOOK SLOTHS. <a class="emphs" href = "http://cheezburger.com/17669">EEEEE</a></p>
+				<br>
+			</div>
+			<div class="author">a: mikeepourhadi</div>
+		</div>
+
+
+		<h2 class="titlehead">Sunday, <span class="emphsday">APRIL 6TH</span>: Groop it </h2>
+		<div class="block">
+			<div class="content">
+				<h3 class="emphstitle">WARNING: PURE HONESTY</h3><br>
+				<p>I picked group_by because I had never used it before, nor did I have any clue what function or purpose it served. Obviously it groups a thing with a thing, BUT HOW? WHY? EXPLAIN, YOURSELF, RUBE(y). Let's learn this thing together, alright? Okay.</p>
+				<br>
+				<p><span class="emphs">Group_by can... well... group things. </span> Let me explain with an example, maybe that would be better for the both of us.</p>
+				<br>
+				<h3 class="emphstitle">LET'S PASS SOME NAMES</h3>
+				<br>
+				
+				<div class="codeblock">
+					<p class="codetext"><span class="def">def</span> cohort_grps(cohort)</p>
+					<br>
+					<p class="codetext">end</p>
+				</div>
+				
+				<br>
+				<p>Hey, look at that, we have a little method there, that's pretty neato.</p>
+				<br>
+				<p>Let's pass an array of names.</p>
+				<br>
+
+				<div class="codeblock">
+					<p class="codetext" style="font-size: 15px">
+					cohort_grps (["Keenan Turner", "Tyler Keating", "Catherine Farkas", "Kim Girard", "Zac Mitton", "Caleb Rugg", "Daniel Yoachim", "Scott Silveus", "Travis Hernandez", "Lana Rakhman", "Mikee Pourhadi", "Brendan Brown", "Natalie McCroy", "Ahmed Al-Bahar", "Carl Krause", "Rick Dsida", "Ann Lin", "Peter Debelak", "Mike Daugherty", "Xander Glassman", "Natalie Frecka"])</p>
+				</div>
+
+				<br>
+				<p>That's all of us. HEY IT'S ME, MOVING ON.</p>
+				<br>
+				<h3 class="emphstitle">SIMPLICITY</h3>
+				<br>
+				<p>So how should we group these fine folks? Well, for the sake of steady progress, let's take it slowly. I'll drop the group_by method in here for the array class.</p>
+				<br>
+				<p>Group_by iterates through and outputs a hash. So you, as an intrepid programmer, rubyist, crazyperson, genius can control the groupings. What do you want to be grouped? YOU CHOOSE.</p>
+				<br>
+
+				<div class="codeblock">
+					<p class="codetext"><span class="def">def</span> cohort_grps(cohort)</p>
+					<p class="codetext">cohort.group_by {|x| x[0]}
+					<br>
+					<p class="codetext">end</p>
+				</div>
+				
+				<br>
+				<p>So you see I added a little thing there, you see that? There, we're telling group_by to iterate through the array, take the first character of each element, and output a hash with keys as those first characters, and values that are the elements that begin with those characters.</p>
+				<br>
+				<p>Good lord, Mikee, what did you just say.</p>
+				<br>
+				<p>Let's take a look at the output.</p>
+				<br>	
+
+				<div class="codeblock">
+					<p class="codetext" style="font-size: 15px">{"K"=>["Keenan Turner", "Kim Girard"], "T"=>["Tyler Keating", "Travis Hernandez"], "C"=>["Catherine Farkas", "Caleb Rugg", "Carl Krause"], "Z"=>["Zac Mitton"], "D"=>["Daniel Yoachim"], "S"=>["Scott Silveus"], "L"=>["Lana Rakhman"], "M"=>["Mikee Pourhadi", "Mike Daugherty"], "B"=>["Brendan Brown"], "N"=>["Natalie McCroy", "Natalie Frecka"], "A"=>["Ahmed Al-Bahar", "Ann Lin"], "R"=>["Rick Dsida"], "P"=>["Peter Debelak"], "X"=>["Xander Glassman"]}</p>
+				</div>
+				
+				<br>
+				<p>See what I was saying? The keys are the first letters of each name, the values are those names. Grouped! WHAMMY.</p>
+				<br>
+				<h3 class="emphstitle">SO THERE'S A SIMPLE THING</h3>
+				<br>
+				<p>As I said, super simple. I will leave it at that, but I think that you should go off and play with .group_by. (By the way, you could just do this:)</p>
+				<br>
+
+				<div class="codeblock">
+					<p class="codetext">cohort.group_by {|x| x[0]}</p>
+				</div>
+				<br>
+				<p>YOU DON'T EVEN NEED A METHOD. WHAT. WHAT? MIND BLOWN. ENJOY YOUR NEWFOUND SKILLS.</p>
+				<br>
+			</div>
+			<div class="author">a: mikeepourhadi</div>
+		</div>
+
+
 		<h2 class="titlehead">Saturday, <span class="emphsday">MARCH 30TH</span>: Pairing, caring </h2>
 		<div class="block">
 			<div class="content">
