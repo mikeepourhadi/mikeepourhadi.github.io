@@ -19,6 +19,129 @@
 			<a class="emphs" href="About.html">back</a>
 		</nav>
 
+		<h2 class="titlehead">Sunday, <span class="emphsday">APRIL 13TH</span>: TECH - YOUNG VS. OLD</h2>
+		<div class="block">
+			<div class="content">
+				<h3 class="emphstitle">STARTUPS</h3><br>
+				<p>'Sectors' have their issues. Financial, engineering, residential, etc etc: each career amalgam has its share of culture struggles. Tech does, too.</p>
+				<br>
+				<p><span class='emphs'>There's an age gap in the tech field.</span>What do I mean by that? Well, the market is inundated with startups. Industrious young people take to those startups with a verve and gusto like finance majors sprinting towards Wall Street. On the other hand, legacy companies like Microsoft or IBM - while offering competitive salaries and benefits seem to lack that attraction. The latter comapnies are often filled with older, more seasoned programmers and engineers.</p>
+				<br>
+				<h3 class="emphstitle">SO WHAT'S THE ISSUE?</h3>
+				<br>
+				<p>Dispersion of talent and where the market is heading. Let's think about startups in the past and startups now. Way back when, to have a startup, an entrepreneur needed an innovation to be successful. The first tech startups shook the landscape. Granted, that was when the tech field was still relatively small, but these pioneers created microchips that doubled processing power or created newer, more functional programming languages. The spearheads - the innovators, the landscapers - they thrived and grew because the product they created was borne of science.</p>
+				<br>
+				<p><span class='emphs'>Fast forward to now.</span> Startups are everywhere and those that receive the most public attention release flavor-of-the-month apps that don't necessarily push boundaries. Dating apps like Tinder explode in popularity, fueled not by technology but social intimacies. The programmers use an already established API to create an app that grips people's interest and generate tons of money.</p>
+				<br>
+				<p>According to one journalist, that's what the youthful programmers and developers seek: apps that people use, that their friends use. It's about being part of something 'cool', and perhaps not so innovative.</p>
+				<br>
+				<p>I'm rambling now. The point is this: a company fueled entirely by the 'next coolest thing' misses the mark. The beauty of technology rests within its continuing advancement. It is unsurprising that an app built to tap into basic curisiosities of people (like gossip or sex) sell like mad. And the younger, brilliant talent - <span class='emphs'>those flocking to startups</span> - are understandably entranced by the allure. But that deprives companies that innovate of that talent. Without younger programmers, the older established companies are forced to fizzle out.And that harms everyone.</p>
+				<br>
+				<h3 class="emphstitle">WHAT DO WE DO?</h3>
+				<br>
+				<p> I don't have a clue. How do we make innovation sexy and happening? That's a question that permeats all of science right now, isn't it? If I had the answer, you bet I would be out there screaming about it. I think that every programmer and computer scientist knows that the next Tinder doesn't matter. But that's where the fun is, and that's always where the fun will be: the fast-paced environment, the high stress, high reward, quick turn around company. Eventually, though, I am willing to believe that people have a change of heart. After all, the older veterans at Microsoft were attracted to that same environment at some point. Right?</p>
+				<br>
+				<p>Am I saying that young people don't have their priorities straight? Perhaps slightly. Is this sweeping generalization accurate? Probably not. It's simply a concern that I have - that innovation is falling to the wayside while hot-or-not takes center stage. And that's just a huge detriment to people, to companies, to progress in general.</p>
+			</div>
+			<div class="author">a: mikeepourhadi</div>
+		</div>
+
+
+		<h2 class="titlehead">Sunday, <span class="emphsday">APRIL 13TH</span>: LET'S MAKE YOU USING CLASSES </h2>
+		<div class="block">
+			<div class="content">
+				<h3 class="emphstitle">WHERE DO WE BEGIN</h3><br>
+				<p>Ruby classes are pretty interesting concepts. Classes allow a programmer(rubyist, RUBULIST, BEST RUB-) to create objects that are 'instances' of that class. Confused? So was I when I wrote that sentence. Think of it this way:</p>
+				<br>
+				<p class='emphs'>Sloths. There are two-toed and three-toed sloths. Are they completely different creatures? No. Both are sloths (the class), with minor differences in execution (the toes).</p>
+				<br>
+				<h3 class="emphstitle">HOPE THAT HELPS UH LET'S GO</h3>
+				<br>
+				<p>So let's make a you. What are you? What class do you belong to? Human. Right? Which I guess is an instance of animal. WHich I guess is an instance organism. Which I guess is an instance of life. ...</p>
+				<br>
+				<p class ='emphs'>Sigh</p>
+				<br>
+				<p>You're a person, and we're going to go with that SO LET'S GO WITH THAT.</p>
+				<br>
+				
+				<div class="codeblock">
+					<p class="codetext">class Person</p>
+					<br>
+					<p class="codetext">end</p>
+				</div>
+				
+				<br>
+				<p>Done. Okay, so what do people have? People have ages, right? Eye color? Right. Height? Yep. Social Security numbers? Bank account numbers? If you want to email those to me so I can actually do this tutorial for you, I'd appreciate it.</p>
+				<br>
+				<h3 class="emphstitle">KIDDING</h3>
+				<br>
+				<p>Now let's make sure that age, eye_color and height are variables that apply for ALL instances of the Person class (i.e. you, your friends, me, my friend - just all the peoples).</p>
+				<br>
+				<p>Hang tight. It may look funny.</p>
+				<br>
+				
+				<div class="codeblock">
+					<p class="codetext">class Person</p><br>
+					<p class="codetext">def initialize(name, age, eye_color, heightin)</p>
+					<p class="codetext">@name = name</p>
+					<p class="codetext">@age = age</p>
+					<p class="codetext">@eye_color = eye_color</p>
+					<p class="codetext">@heightin = heightin</p>
+					<br>
+					<p class="codetext">end</p>
+				</div>
+				<br>
+				<p>Freaked out? Don't be, it's simple. We just took age, eye_color and height and made them instance variables. We 'initialize' the class with those certain attributes - that's what the initialize method is for. That means they are available and applied to every instance of Person. Everyone has an age and eye_color, right? Use them @s.</p>
+				<br>
+				<h3 class="emphstitle">LET'S MAKE YOU</h3>
+				<br>
+				<div class="codeblock">
+					<p class="codetext">you = Person.new("You", 24, "brown", 65)</p>
+				</div>
+				<br>
+				<h3 class="emphstitle">TELL ME HOW OLD YOU ARE</h3>
+				<br>
+				<p>How do you do that? Well... you can't. Not right now at least. What if you wanted to tell someone your age? We would need to implement a new instance method for that.</p>
+				<br>
+				<div class="codeblock">
+					<p class="codetext">class Person</p><br>
+					<p class="codetext">def initialize(name, age, eye_color, heightin)</p>
+					<p class="codetext">@name = name</p>
+					<p class="codetext">@age = age</p>
+					<p class="codetext">@eye_color = eye_color</p>
+					<p class="codetext">@heightin = heightin</p>
+					<p class="codetext">end</p>
+					<br>
+					<p class="codetext">def age</p>
+					<p class="codetext">puts "#{@age} glorious years old.</p>
+					<p class="codetext">end</p>
+					<br>
+					<p class="codetext">end</p>
+				</div>
+				<br>
+				<h3 class="emphstitle">NOW TRY IT</h3>
+				<br>
+
+				<div class="codeblock">
+					<p class="codetext">you = Person.new("You", 24, "brown", 65)</p>
+					<p class="codetext">you.age</p>
+				</div>
+				
+				<br>
+
+				<div class="codeblock">
+					<p class="codetext">=> 24 glorious years old.</p>
+				</div>
+				<br>
+				<p>Instance methods are available across the entire class, so every new Person that you make can tell you its age!</p>
+				<br>
+				<p>Those are the basic building blocks of classes: instance methods and instance variables. Now you know them, and you manipulate them as you please. Why not try making a new person with the class definition above?</p>
+				<br>
+				<p>Once you understand classes, you will be an untoppable Ruby programmer. Get to it!</p>
+			</div>
+			<div class="author">a: mikeepourhadi</div>
+		</div>
+
 		<h2 class="titlehead">Sunday, <span class="emphsday">APRIL 6TH</span>: WE'RE FIGHTING </h2>
 		<div class="block">
 			<div class="content">
