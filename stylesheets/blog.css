@@ -1,3 +1,83 @@
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+/*head*/
+#abouthead h1{
+	font-size: 6em;
+	width: 80%;
+	font-family: "Cookie";
+	padding-top: 1em;
+}
+/*sidebar*/
+sidebar{
+   text-align: left;
+   width: 200px;
+   height: 600px;
+   position: relative;
+   float: left;
+}
+sidebar ul{
+	text-align: center;
+	margin-top: 80px;
+}
+sidebar ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 700; 
+	line-height: 20px;
+	text-align: right;
+}
+/*body*/
+#body div.info {
+  font-family: "Alegreya Sans", sans-serif;
+  color: white;
+  float: left;
+  min-height: 100px;
+  padding: 1%;
+  margin: 2%;
+  width: 19%;
+  border-radius: 100px 100px 100px;
+  background: #99B382;
+}
+#body div.info img{
+	width: 60%;
+}
+#body div.info h2{
+	font-family: "Cookie";
+	color: black;
+}
+#twitfeed{
+	width:	100%;
+	max-width: 400px;
+	position: relative;
+	float: right;
+}
+.filler{
+	clear:both;
+}
+#bottomhead h2{
+	font-size: 3em;
+	width: 80%;
+	font-family: "Cookie";
+}
+/*tweaks*/
+.emphs{
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 16px;
+}
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+/* Footer */
+footer {
+  clear: left;
+}
+
+/* Blog */
 
 .titlehead{
 	font-family: 'Alegreya Sans', sans-serif;
