@@ -11,14 +11,19 @@
 	<script>
 
 $(document).ready(function() {
-$('#body div.info img').mouseenter(function() {
-   
-    $(this).animate({width: "80%", height: "80%"}, 'fast');
-});
+	$('#abouthead').hide().delay(100).fadeIn(2500);
+	$('#media').hide().delay(500).fadeIn(1000);
+	$('#blog').hide().delay(100).fadeIn(1000);
+	$('#shows').hide().delay(800).fadeIn(1000);
+	$('#twitter').hide().delay(1200).fadeIn(1000);
+	$('#bottomhead').hide().delay(2000).fadeIn(1000);
 
-$('#body div.info img').mouseleave(function() {   
-    $(this).animate({width: "60%"}, 'fast');
-});
+	$('#body div.info img').mouseenter(function() {
+    	$(this).animate({width: "80%", height: "80%"}, 'fast');
+		});
+		$('#body div.info img').mouseleave(function() {   
+    		$(this).animate({width: "60%"}, 'fast');
+		});
 });
 
 	</script>
@@ -34,19 +39,19 @@ $('#body div.info img').mouseleave(function() {
         <div id="body">
          
           <div class ="wrapper">
-            <div class = "info">
+            <div class = "info" id="blog">
             	<a href="blog.html"><img src ="images/Sketch Book.png"></img></a>
             	<h2>BLOG</h2>
             </div>
-            <div class = "info"> 
+            <div class = "info" id="media"> 
             	<img src ="images/Ink Pen.png"></img>
             	<h2>MEDIA</h2>
             </div>
-             <div class = "info"> 
+             <div class = "info" id="shows"> 
                 <img src ="images/Splatter.png"></img> 
                 <h2>SHOWS</h2>    
             </div>
-             <div class = "info"> 
+             <div class = "info" id="twitter"> 
                 <img src ="images/Magic Wand.png"></img> 
                 <h2>TWITTER</h2>       
             </div>
