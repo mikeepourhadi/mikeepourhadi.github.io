@@ -2,13 +2,28 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="stylesheets/first.css">
-		<title>Boss Fight - Welcome</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+		<title>Hi.</title>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,500,300italic,400italic|Quicksand:400,700|Alegreya+Sans:300,400,500,700|Exo+2:400,300,500,500italic|Cookie' rel='stylesheet' type='text/css'>
+		<script src="jquery.js"></script>
+		<script>
+
+		$(function() {
+			$('.indexcontainer h1').hide().delay(1000).fadeIn('slow').delay(2000).fadeOut('slow');
+			$('.indexcontainer h2').hide().delay(2200).fadeIn('slow').delay(800).fadeOut('slow');
+			$('.indexcontainer h3').hide().delay(4500).fadeIn('slow');
+			$('.indexcontainer h4').hide().delay(6000).fadeIn('slow');
+		});
+
+		</script>
 	</head>
-	<body style="background-color: #696969">
-	  <div id="container">
-		<div><a href="About.html"><img id="imghead" src="images/Boss-Fight.png"></a></div>
-		<div class="vid"><video class="video" src="images/Vanguard.mp4" controls></div>
+	<body id="indexbody" style="background-color: #95A382">
+	  <div class="indexcontainer">
+		 <h1>h i .</h1>
+		 <h2>i'm mikee.</h2>
+		 <h3>welcome to my page.</h3>
+		 <h4><a href="about.html">come on in.</a></h4>
 	  </div>
 	</body>
 </html>
