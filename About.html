@@ -17,6 +17,24 @@ $(document).ready(function() {
 	$('#shows').hide().delay(800).fadeIn(1000);
 	$('#twitter').hide().delay(1200).fadeIn(1000);
 	$('#bottomhead').hide().delay(2000).fadeIn(1000);
+	
+	$('#blog').click(function(e) {
+		fade();
+		e.preventDefault();
+		setTimeout(function() {
+			window.location = 'blog.html';
+		}, 1000);
+        
+	});
+
+	var fade = function() {
+	$('#abouthead').fadeOut(800);
+	$('#media').fadeOut(450);
+	$('#blog').fadeOut(800);
+	$('#shows').fadeOut(300);
+	$('#twitter').fadeOut(100);
+	$('#bottomhead').fadeOut(800);
+	};
 
 	$('#body div.info img').mouseenter(function() {
     	$(this).animate({width: "80%", height: "80%"}, 'fast');
@@ -24,6 +42,7 @@ $(document).ready(function() {
 		$('#body div.info img').mouseleave(function() {   
     		$(this).animate({width: "60%"}, 'fast');
 		});
+
 });
 
 	</script>
